@@ -1,0 +1,30 @@
+.register-container {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.register-container h2 {
+  text-align: center;
+}
+
+.register-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-container label {
+  margin-top: 10px;
+}
+
+.register-container input {
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.register-container button {
+  margin-top: 10px;
+  padding: 10px;
+}

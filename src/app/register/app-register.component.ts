@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app-register.component.css']
 })
 export class AppRegisterComponent {
-  // 添加逻辑和模板代码
+  // You can add your registration logic here
 }
