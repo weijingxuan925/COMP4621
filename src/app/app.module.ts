@@ -1,20 +1,22 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppComponent } from './app.component';
+import { AppMainComponent } from './app-main.component';
+import {AppLoginComponent} from "./login/app-login.component";
+import {AppRegisterComponent} from "./register/app-register.component";
 import { FormsModule } from '@angular/forms';
-// 或者
-import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppMainComponent,
+    AppLoginComponent,
+    AppRegisterComponent
   ],
   imports: [
     BrowserModule,
     FormsModule, // 或者 ReactiveFormsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppMainComponent]
 })
 export class AppModule { }
