@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app-login.component.css']
 })
 export class AppLoginComponent {
-  // 添加逻辑和模板代码
+  username: any;
+  password: any;
+  login() {
+    // 在这里添加处理登录的逻辑
+    console.log('Username:', this.username);
+    console.log('Password:', this.password);
+    // 可以发送登录请求或执行其他操作
+  }
 }

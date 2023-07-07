@@ -7,13 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./app-main.component.css']
 })
 export class AppMainComponent {
-  constructor(private router: Router) {}
+  constructor(private router: Router) {
 
-  goToLogin() {
-    this.router.navigate(['/login']);
-  }
-
-  goToRegister() {
-    this.router.navigate(['/register']);
   }
 }

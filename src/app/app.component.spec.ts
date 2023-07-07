@@ -1,5 +1,5 @@
 import { TestBed } from '@angular/core/testing';
-import {AppMainComponent} from "./app-main.component";
+import {AppMainComponent} from "./main/app-main.component";
 
 describe('AppComponent', () => {
   beforeEach(() => TestBed.configureTestingModule({
