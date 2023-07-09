@@ -1,0 +1,12 @@
+<div class="logout-container">
+  <button *ngIf="isLoggedIn" class="logout-btn" (click)="logout()">Logout</button>
+</div>
+<div class="container">
+  <h2 class="welcome-msg">Your are Login As  {{ username }}</h2>
+  <br>
+  <h2 class="time"> Current time: {{ currentTime | date: 'yyyy-MM-dd HH:mm:ss' }}</h2>
+  <h2>
+    This is for COMP4621 Assignment3 Project
+  </h2>
+</div>
+
